@@ -1,0 +1,61 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1545640279329" stop="1545640279383">
+  <name>test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1545640279329" status="passed" stop="1545640279339">
+      <name>TestLogin.test_01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3308-MainThread"/>
+        <label name="host" value="LAPTOP-OH148G0B"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545640279338" status="passed" stop="1545640279339">
+          <name>这是一个步骤</name>
+          <title>这是一个步骤</title>
+          <attachments>
+            <attachment source="480825d5-f4ec-491c-821c-d293c1166d45-attachment.txt" title="描述2" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1545640279342" status="failed" stop="1545640279383">
+      <name>TestLogin.test_02</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_login.TestLogin object at 0x000001BA0EF56A90&gt;
+
+    @allure.step(title="这是一个步骤")
+    def test_02(self):
+        print("sb")
+        allure.attach('描述2','这是一个描述')
+&gt;       assert 0
+E       assert 0
+
+script\test_login.py:15: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3308-MainThread"/>
+        <label name="host" value="LAPTOP-OH148G0B"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545640279344" status="failed" stop="1545640279348">
+          <name>这是一个步骤</name>
+          <title>这是一个步骤</title>
+          <attachments>
+            <attachment source="eb452ca7-53a0-4510-90cc-55b1282bff1d-attachment.txt" title="描述2" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
